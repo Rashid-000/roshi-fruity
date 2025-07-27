@@ -1,10 +1,5 @@
 [[redirects]]
   from = "/ads.txt"
-  to = "/ads.txt"
+  to = "/public/ads.txt"
   status = 200
   force = true
-
-[[headers]]
-  for = "/ads.txt"
-  [headers.values]
-    Cache-Control = "public, max-age=3600"
